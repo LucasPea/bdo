@@ -31,12 +31,21 @@ var calEXP = function (name) {
 var foodList = function (name) {
     if (name === void 0) { name = ""; }
     var arrFoodName = Guru_Cooking_Box.reduce(function (acc, cur) {
-        var sumEXP = calEXP(cur.name);
-        var insertData = __assign({ name: cur.name, totalExp: sumEXP.totalEXP }, (sumEXP.missingSomeExp && { missingSomeExp: true }));
-        acc.push(insertData);
+        if (name === "") {
+            var sumEXP = calEXP(cur.name);
+            var insertData = __assign({ name: cur.name, totalExp: sumEXP.totalEXP }, (sumEXP.missingSomeExp && { missingSomeExp: true }));
+            acc.push(insertData);
+        }
+        if (name !== "") {
+            if (name === cur.name) {
+                var sumEXP = calEXP(name);
+                var insertData = __assign({ name: name, totalExp: sumEXP.totalEXP }, (sumEXP.missingSomeExp && { missingSomeExp: true }));
+                acc.push(insertData);
+            }
+        }
         return acc;
     }, []);
     arrFoodName.sort(function (a, b) { return b.totalExp - a.totalExp; });
     return arrFoodName;
 };
-console.log(foodList());
+console.log(foodList("Knight_Combat_Rations"));
