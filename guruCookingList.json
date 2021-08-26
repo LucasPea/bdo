@@ -1,0 +1,421 @@
+[
+  {
+    "name": "Knight_Combat_Rations",
+    "exp": 2400,
+    "recipe": [
+      {
+        "name": "Dark_Pudding",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Ham_Sandwich",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Meat_Croquette",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Fruit_Wine",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Valencia_Meal",
+    "exp": 2400,
+    "recipe": [
+      {
+        "name": "Teff_Sandwich",
+        "exp": 1600,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "King_of_Jungle_Hamburg",
+        "exp": 1600,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Couscous",
+        "exp": 1200,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Fig_Pie",
+        "exp": 700,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Date_Palm_Wine",
+        "exp": 1000,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Kamasylvia_Meal",
+    "exp": 2400,
+    "recipe": [
+      {
+        "name": "Rainbow_Button_Mushroom_Sandwich",
+        "exp": 800,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Coconut_Pasta",
+        "exp": 800,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Fig_Pie",
+        "exp": 700,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Fruit_Wine",
+        "exp": 700,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Rainbow_Button_Mushroom_Cheese_Melt",
+        "exp": 800,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Khalk's_Fermented_Wine",
+    "exp": 1600,
+    "recipe": [
+      {
+        "name": "Honey_Wine",
+        "exp": 700,
+        "quantity": 5,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Butter-Roasted_Lobster",
+    "exp": 800,
+    "recipe": []
+  },
+  {
+    "name": "Hard-Boiled_Shellfish",
+    "exp": 800,
+    "recipe": [
+      {
+        "name": "Essence of Liquor",
+        "exp": 400,
+        "quantity": 3,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Balenos_Meal",
+    "exp": 1600,
+    "recipe": [
+      {
+        "name": "Cheese_Gratin",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Meat_Croquette",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Smoked_Fish_Steak",
+        "exp": 700,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Stir-Fried_Vegetables",
+        "exp": 400,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Beer",
+        "exp": 400,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Serendia_Meal",
+    "exp": 1600,
+    "recipe": [
+      {
+        "name": "Ham_Sandwich",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Meat_Pie",
+        "exp": 700,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Honeycomb_Cookie",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Boiled_Bird_Eggs",
+        "exp": 400,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Fruit_Wine",
+        "exp": 700,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Calpheon_Meal",
+    "exp": 1600,
+    "recipe": [
+      {
+        "name": "Soft_Bread",
+        "exp": 400,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Milk_Tea",
+        "exp": 0,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Fish_Fillet_Salad",
+        "exp": 700,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Cheese_Pie",
+        "exp": 1000,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Meat_Pasta",
+        "exp": 700,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Mediah_Meal",
+    "exp": 1600,
+    "recipe": [
+      {
+        "name": "Dark_Pudding",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Oatmeal",
+        "exp": 700,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Grilled_Sausage",
+        "exp": 400,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Lean_Meat_Salad",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Exotic_Herbal_Wine",
+        "exp": 700,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Special_Arehaza_Meal",
+    "exp": 2400,
+    "recipe": [
+      {
+        "name": "Coconut_Cocktail",
+        "exp": 800,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Coconut_Pasta",
+        "exp": 800,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Coconut_Fried_Fish",
+        "exp": 800,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Meat_Stew",
+        "exp": 400,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Steak",
+        "exp": 0,
+        "quantity": 1,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Margoria_Seafood_Meal",
+    "exp": 2400,
+    "recipe": [
+      {
+        "name": "Prawn_Salad",
+        "exp": 800,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Steamed_Prawn",
+        "exp": 800,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Pan-Fried_Oyster",
+        "exp": 800,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Butter-Roasted_Lobster",
+        "exp": 800,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Fruit_Wine",
+        "exp": 700,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "Special_Drieghanese_Meal",
+    "exp": 0,
+    "recipe": [
+      {
+        "name": "Skewered_Llama_Cheese_Melt",
+        "exp": 0,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Stir-Fried_Bracken",
+        "exp": 0,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Roast_Marmot",
+        "exp": 0,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Ghormeh_Sabzi",
+        "exp": 0,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Honey_Wine",
+        "exp": 700,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  },
+  {
+    "name": "O'dyllita_Meal",
+    "exp": 0,
+    "recipe": [
+      {
+        "name": "Blood_Red_Delotia_Pudding",
+        "exp": 0,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Stir-Fried_Bracken_and_Meat",
+        "exp": 0,
+        "quantity": 1,
+        "recipe": {}
+      },
+      {
+        "name": "Delotia_Juice",
+        "exp": 0,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Chicken_Breast_Salad",
+        "exp": 0,
+        "quantity": 2,
+        "recipe": {}
+      },
+      {
+        "name": "Stir-Fried_Bird",
+        "exp": 0,
+        "quantity": 2,
+        "recipe": {}
+      }
+    ]
+  }
+]
