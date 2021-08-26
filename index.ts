@@ -1,11 +1,7 @@
-// declare var require: any;
+declare var require: any;
 var Guru_Cooking_Box = require("./guruCookingList.json");
-// import Guru_Cooking_Box = require("./guruCookingList.json");
 
-const calEXP = (
-  name
-  // : string
-) => {
+const calEXP = (name: string) => {
   const arrCalEXP = Guru_Cooking_Box.reduce(
     (acc, cur) => {
       let ingredientEXP = { totalIngredientEXP_D1: 0 };
@@ -70,10 +66,7 @@ const calEXP = (
   return arrCalEXP;
 };
 
-const foodList = (
-  // : string
-  name = ""
-) => {
+const foodList = (name: string = "") => {
   const arrFoodName = Guru_Cooking_Box.reduce((acc, cur) => {
     if (name === "") {
       const sumEXP = calEXP(cur.name);
