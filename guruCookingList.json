@@ -8,7 +8,12 @@
         "exp": 1000,
         "quantity": 1,
         "recipe": [
-          { "name": "Oatmeal", "exp": 700, "quantity": 1, "recipe": [] },
+          {
+            "name": "Oatmeal",
+            "exp": 700,
+            "quantity": 1,
+            "recipe": []
+          },
           {
             "name": "Pickled_Vegetables",
             "exp": 700,
@@ -25,19 +30,52 @@
         ]
       },
       {
+        "name": "Fruit_Wine",
+        "exp": 1000,
+        "quantity": 1,
+        "recipe": [
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 3,
+            "recipe": []
+          },
+          {
+            "name": "Exotic_Herbal_Wine",
+            "exp": 400,
+            "quantity": 1,
+            "recipe": [
+              {
+                "name": "Essence_Of_Liquor",
+                "exp": 400,
+                "quantity": 1,
+                "recipe": []
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Ham_Sandwich",
         "exp": 1000,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Soft_Bread",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          },
+          {
+            "name": "Grilled_Sausage",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Meat_Croquette",
-        "exp": 1000,
-        "quantity": 1,
-        "recipe": []
-      },
-      {
-        "name": "Fruit_Wine",
         "exp": 1000,
         "quantity": 1,
         "recipe": []
