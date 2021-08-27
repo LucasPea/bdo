@@ -135,4 +135,4 @@ const foodList = (name: string = "") => {
   return arrFoodName;
 };
 
-console.log(foodList("Knight_Combat_Rations"));
+console.log(foodList());

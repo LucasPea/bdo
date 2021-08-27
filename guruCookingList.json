@@ -90,19 +90,71 @@
         "name": "Teff_Sandwich",
         "exp": 1600,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Teff_Bread",
+            "exp": 400,
+            "quantity": 1,
+            "recipe": []
+          },
+          {
+            "name": "Grilled_Scorpion",
+            "exp": 1000,
+            "quantity": 1,
+            "recipe": []
+          },
+          {
+            "name": "Freekeh_Snake_Stew",
+            "exp": 700,
+            "quantity": 1,
+            "recipe": []
+          },
+          {
+            "name": "Red_Sauce",
+            "exp": 3,
+            "quantity": 400,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "King_of_Jungle_Hamburg",
         "exp": 1600,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Teff_Bread",
+            "exp": 400,
+            "quantity": 4,
+            "recipe": []
+          },
+          {
+            "name": "Pickled_Vegetables",
+            "exp": 700,
+            "quantity": 2,
+            "recipe": [
+              {
+                "name": "Vinegar",
+                "exp": 400,
+                "quantity": 4,
+                "recipe": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Couscous",
         "exp": 1200,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Freekeh_Snake_Stew",
+            "exp": 700,
+            "quantity": 1,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Fig_Pie",
@@ -114,7 +166,14 @@
         "name": "Date_Palm_Wine",
         "exp": 1000,
         "quantity": 2,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 4,
+            "recipe": []
+          }
+        ]
       }
     ]
   },

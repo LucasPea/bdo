@@ -94,4 +94,4 @@ var foodList = function (name) {
     arrFoodName.sort(function (a, b) { return b.totalExp - a.totalExp; });
     return arrFoodName;
 };
-console.log(foodList("Knight_Combat_Rations"));
+console.log(foodList());
