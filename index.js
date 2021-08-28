@@ -94,4 +94,23 @@ var foodList = function (name) {
     arrFoodName.sort(function (a, b) { return b.totalExp - a.totalExp; });
     return arrFoodName;
 };
-console.log(foodList());
+var readline = require("readline").createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+readline.question("Input food name or left blank to get all \n", function (name) {
+    if (name === void 0) { name = ""; }
+    try {
+        if (foodList(name).length === 0) {
+            return console.log("Input error");
+        }
+        console.log(foodList(name));
+    }
+    catch (error) {
+        console.log("Input error");
+    }
+    finally {
+        readline.close();
+    }
+});
+// console.log(foodList());

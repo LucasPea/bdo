@@ -1,4 +1,3 @@
-declare var require: any;
 var Guru_Cooking_Box = require("./guruCookingList.json");
 
 const calEXP = (name: string) => {
@@ -135,4 +134,26 @@ const foodList = (name: string = "") => {
   return arrFoodName;
 };
 
-console.log(foodList());
+const readline = require("readline").createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+readline.question(
+  "Input food name or left blank to get all \n",
+  (name: string = "") => {
+    try {
+      if (foodList(name).length === 0) {
+        return console.log("Input error");
+      }
+
+      console.log(foodList(name));
+    } catch (error) {
+      console.log("Input error");
+    } finally {
+      readline.close();
+    }
+  }
+);
+
+// console.log(foodList());
