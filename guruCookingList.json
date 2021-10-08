@@ -185,13 +185,27 @@
         "name": "Rainbow_Button_Mushroom_Sandwich",
         "exp": 800,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Soft_Bread",
+            "exp": 400,
+            "quantity": 1,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Coconut_Pasta",
         "exp": 800,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "White_Sauce",
+            "exp": 400,
+            "quantity": 1,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Fig_Pie",
@@ -203,7 +217,27 @@
         "name": "Fruit_Wine",
         "exp": 700,
         "quantity": 2,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 6,
+            "recipe": []
+          },
+          {
+            "name": "Exotic_Herbal_Wine",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": [
+              {
+                "name": "Essence_Of_Liquor",
+                "exp": 400,
+                "quantity": 2,
+                "recipe": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Rainbow_Button_Mushroom_Cheese_Melt",
@@ -221,7 +255,14 @@
         "name": "Honey_Wine",
         "exp": 700,
         "quantity": 5,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 10,
+            "recipe": []
+          }
+        ]
       }
     ]
   },
@@ -250,7 +291,20 @@
         "name": "Cheese_Gratin",
         "exp": 1000,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Grilled_Sausage",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          },
+          {
+            "name": "Red_Sauce",
+            "exp": 3,
+            "quantity": 400,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Meat_Croquette",
@@ -286,7 +340,20 @@
         "name": "Ham_Sandwich",
         "exp": 1000,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Soft_Bread",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          },
+          {
+            "name": "Grilled_Sausage",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Meat_Pie",
@@ -310,7 +377,27 @@
         "name": "Fruit_Wine",
         "exp": 700,
         "quantity": 2,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 6,
+            "recipe": []
+          },
+          {
+            "name": "Exotic_Herbal_Wine",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": [
+              {
+                "name": "Essence_Of_Liquor",
+                "exp": 400,
+                "quantity": 2,
+                "recipe": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -326,15 +413,29 @@
       },
       {
         "name": "Milk_Tea",
-        "exp": 0,
+        "exp": 700,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Tea_With_Fine_Scent",
+            "exp": 700,
+            "quantity": 2,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Fish_Fillet_Salad",
         "exp": 700,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Dressing",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Cheese_Pie",
@@ -358,7 +459,27 @@
         "name": "Dark_Pudding",
         "exp": 1000,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Oatmeal",
+            "exp": 700,
+            "quantity": 1,
+            "recipe": []
+          },
+          {
+            "name": "Pickled_Vegetables",
+            "exp": 700,
+            "quantity": 1,
+            "recipe": [
+              {
+                "name": "Vinegar",
+                "exp": 400,
+                "quantity": 4,
+                "recipe": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Oatmeal",
@@ -376,13 +497,33 @@
         "name": "Lean_Meat_Salad",
         "exp": 1000,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Dressing",
+            "exp": 400,
+            "quantity": 4,
+            "recipe": []
+          },
+          {
+            "name": "Vinegar",
+            "exp": 400,
+            "quantity": 4,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Exotic_Herbal_Wine",
         "exp": 700,
         "quantity": 2,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          }
+        ]
       }
     ]
   },
@@ -394,13 +535,40 @@
         "name": "Coconut_Cocktail",
         "exp": 800,
         "quantity": 2,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Exotic_Herbal_Wine",
+            "exp": 700,
+            "quantity": 2,
+            "recipe": [
+              {
+                "name": "Essence_Of_Liquor",
+                "exp": 400,
+                "quantity": 2,
+                "recipe": []
+              }
+            ]
+          },
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Coconut_Pasta",
         "exp": 800,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "White_Sauce",
+            "exp": 400,
+            "quantity": 1,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Coconut_Fried_Fish",
@@ -416,9 +584,16 @@
       },
       {
         "name": "Steak",
-        "exp": 0,
+        "exp": 700,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Red_Sauce",
+            "exp": 2,
+            "quantity": 400,
+            "recipe": []
+          }
+        ]
       }
     ]
   },
@@ -454,35 +629,69 @@
         "name": "Fruit_Wine",
         "exp": 700,
         "quantity": 2,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 6,
+            "recipe": []
+          },
+          {
+            "name": "Exotic_Herbal_Wine",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": [
+              {
+                "name": "Essence_Of_Liquor",
+                "exp": 400,
+                "quantity": 2,
+                "recipe": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
     "name": "Special_Drieghanese_Meal",
-    "exp": 0,
+    "exp": 2400,
     "recipe": [
       {
         "name": "Skewered_Llama_Cheese_Melt",
         "exp": 0,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "White_Sauce",
+            "exp": 400,
+            "quantity": 1,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Stir-Fried_Bracken",
-        "exp": 0,
+        "exp": 800,
         "quantity": 1,
         "recipe": []
       },
       {
         "name": "Roast_Marmot",
-        "exp": 0,
+        "exp": 800,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Red_Sauce",
+            "exp": 400,
+            "quantity": 1,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Ghormeh_Sabzi",
-        "exp": 0,
+        "exp": 800,
         "quantity": 2,
         "recipe": []
       },
@@ -490,41 +699,75 @@
         "name": "Honey_Wine",
         "exp": 700,
         "quantity": 2,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Essence_Of_Liquor",
+            "exp": 400,
+            "quantity": 4,
+            "recipe": []
+          }
+        ]
       }
     ]
   },
   {
     "name": "O'dyllita_Meal",
-    "exp": 0,
+    "exp": 2400,
     "recipe": [
       {
         "name": "Blood_Red_Delotia_Pudding",
-        "exp": 0,
+        "exp": 800,
         "quantity": 1,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Honey_Wine",
+            "exp": 700,
+            "quantity": 2,
+            "recipe": [
+              {
+                "name": "Essence_of_Liquor",
+                "exp": 400,
+                "quantity": 2,
+                "recipe": []
+              }
+            ]
+          },
+          {
+            "name": "Oatmeal ",
+            "exp": 700,
+            "quantity": 1,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Stir-Fried_Bracken_and_Meat",
-        "exp": 0,
+        "exp": 800,
         "quantity": 1,
         "recipe": []
       },
       {
         "name": "Delotia_Juice",
-        "exp": 0,
+        "exp": 600,
         "quantity": 2,
         "recipe": []
       },
       {
         "name": "Chicken_Breast_Salad",
-        "exp": 0,
+        "exp": 400,
         "quantity": 2,
-        "recipe": []
+        "recipe": [
+          {
+            "name": "Vinegar",
+            "exp": 400,
+            "quantity": 2,
+            "recipe": []
+          }
+        ]
       },
       {
         "name": "Stir-Fried_Bird",
-        "exp": 0,
+        "exp": 400,
         "quantity": 2,
         "recipe": []
       }
